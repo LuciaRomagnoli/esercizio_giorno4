@@ -1,0 +1,27 @@
+header{
+    height: 500px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(42, 135, 169);
+    font-family: poppins;
+    text-transform: uppercase;
+    padding: 1em;
+    box-sizing: content-box;
+    text-align: center;
+
+}
+
+body{
+    height: 500px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: poppins;
+
+}
+
+menu li{
+    list-style-type: none;
+
+}
