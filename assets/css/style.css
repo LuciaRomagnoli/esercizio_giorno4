@@ -8,13 +8,28 @@ header{
     font-family: poppins;
     text-transform: uppercase;
     padding-top: 2em;
+    box-sizing: content-box;
+    text-align: center;
+    border: 1px solid black;
+}
+
+main{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 2em;
     padding-bottom: 0,2em;
     box-sizing: content-box;
     text-align: center;
+    border: 1px solid black;
+
 }
 
 
 body{
+  background: url(../img/sfondo.png);
+  margin: 0 auto;
     height: 500px;
     width: 60%;
     margin-left: auto;
@@ -36,7 +51,7 @@ h3 {
 body span{
     height: 10px;
     width: 20px;
-    background-color: rgb(200, 195, 195);
+    background-color: rgb(204, 201, 201);
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -48,22 +63,23 @@ article, form, table{
     padding-bottom: 0,2em;
     box-sizing: content-box;
     text-align: center;
+    background-color: white;
+    
 
 }
-#last{
+footer{
     height: 100px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(42, 135, 169);
     font-family: poppins;
-    padding-top: 2em;
-    padding-bottom: 0,2em;
-    box-sizing: content-box;
+    padding-bottom: 2em;
     text-align: center;
+    border: 1px solid black;
 
 }
 
-#last a{ color: rgb(208, 21, 170);
+footer a{ color: rgb(208, 21, 170);
     
 }
