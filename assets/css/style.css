@@ -4,13 +4,16 @@ header{
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(42, 135, 169);
+    color: white;
     font-family: poppins;
     text-transform: uppercase;
-    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 0,2em;
     box-sizing: content-box;
     text-align: center;
 
 }
+
 
 body{
     height: 500px;
@@ -24,4 +27,36 @@ body{
 menu li{
     list-style-type: none;
 
+}
+
+h3 {
+    color: gray;
+
+}
+article, form, table{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 0,2em;
+    box-sizing: content-box;
+    text-align: center;
+
+}
+#last{
+    height: 100px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(42, 135, 169);
+    font-family: poppins;
+    padding-top: 2em;
+    padding-bottom: 0,2em;
+    box-sizing: content-box;
+    text-align: center;
+
+}
+
+#last a{ color: rgb(208, 21, 170);
+    
 }
